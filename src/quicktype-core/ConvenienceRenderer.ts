@@ -459,7 +459,7 @@ export abstract class ConvenienceRenderer extends Renderer {
         // enum cases, though (in Go), so this is actually useful already.
         const alternative = `${e.getCombinedName()}_${caseName}`;
         const order = assignedName === undefined ? enumCaseNameOrder : assignedEnumCaseNameOrder;
-        const names = assignedName === undefined ? [caseName, alternative] : [assignedName];
+        const names = assignedName === undefined ? [alternative] : [assignedName];
         return new SimpleName(names, nonNull(this._enumCaseNamer), order);
     }
 
