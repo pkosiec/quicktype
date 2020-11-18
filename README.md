@@ -1,3 +1,5 @@
+> **NOTE:** This fork modifies enum value naming to always use alternative naming. Use it at your own risk.
+
 ![](https://raw.githubusercontent.com/quicktype/quicktype/master/quicktype-logo.svg?sanitize=true)
 
 [![npm version](https://badge.fury.io/js/quicktype.svg)](https://badge.fury.io/js/quicktype)

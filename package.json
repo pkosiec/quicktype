@@ -1,5 +1,5 @@
 {
-  "name": "quicktype",
+  "name": "@pkosiec/quicktype",
   "version": "15.0.0",
   "license": "Apache-2.0",
   "main": "dist/cli/index.js",
